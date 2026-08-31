@@ -3,7 +3,7 @@
 
 function calculate(bill, tipPercent, people) {
   // TODO (Ali): improve this function on your branch
-  const tip = bill * (tipPercent / 100);
+  const tip = bill * (tipPercent / 50);
   const total = bill + tip;
   const perPerson = total / people;
   return perPerson;
